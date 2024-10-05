@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgb(251, 230, 207);
+
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    background-color: bisque;
+    width: 1000px;
+    padding: 25px 25px 25px 25px;
+    margin-bottom: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.content{
+
+}
+.drdo-web{
+    text-decoration: none;
+    color: red;
+}
+.drdo-web:hover{
+    text-decoration: underline;
+}
+
+h1{
+    word-spacing: 10px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.picture{
+    display: grid;
+    justify-content: center;
+    margin-top: 60px;
+}
+.picture img{
+    width: 600px;
+}
+.kalam-indira{
+    width: 300px;
+    
+}
+.para5-6{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.kalam-expressed{
+    display: flex;
+    grid-template-columns: 2fr 1fr;
+
+}
+.kalam-expressed img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 6px;
+    height: 60%;
+}
+.capeTown-img{
+   margin-top: 20px;
+   margin-left: 15px;
+   border: 1px solid black;
+   padding: 4px 4px 4px 4px;
+   background-color: rgb(212, 212, 212)
+}
+.capeTown-img p{
+    margin-top: 0;
+    width: 100%;
+}
+
+.post-presidency{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 30px;
+}
+.post-precidency-img{
+    border: 1px solid rgb(191, 188, 188);
+    background-color: rgb(212, 212, 212);
+    padding: 4px 4px 4px 4px;
+
+}
+.post-presidency img{
+    width: 100%;
+
+}
+.post-presidency p{
+    width: 100%;
+}
